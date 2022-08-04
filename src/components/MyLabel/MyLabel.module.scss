@@ -1,0 +1,54 @@
+.MyLabel{
+    border-radius: 24px;
+    padding: 40px 20px;
+    color: white;
+    background-image: url(../../../public/images/LabelFone.jpg);
+}
+.labelAvatar{
+    padding: 15px;
+    width: 250px;
+    height: 250px;
+    animation-duration: 0.5s;
+    animation-name: avatar;
+    animation-iteration-count: 1;
+}
+.labelImage{
+    width: 100px;
+    height: 100px;
+}
+.labelContacts{
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 30px;
+}
+.contactsText{
+    font-size: 24px;
+}
+.contactsTel{
+    color: white;
+    text-decoration: none;
+}
+.contactsTel:hover{
+    color: rgb(150, 150, 150);
+}
+.labelHeading{
+    padding: 30px 0px 15px 0px;
+    font-size: 64px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.labelSubHeading{
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+@keyframes avatar {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}

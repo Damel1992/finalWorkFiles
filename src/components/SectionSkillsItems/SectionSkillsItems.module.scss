@@ -1,0 +1,30 @@
+.LineSkills{
+    margin: 85px 0px 110px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    div object * {
+        margin: 3px;
+    }
+}
+
+.LineSkillsItem{
+    width: 160px;
+    margin: 0px 50px;
+    img{
+        margin-bottom: 23px;
+    }
+    p:last-of-type{
+        margin-bottom: 40px;
+    }
+}
+
+.Star * {
+    fill: black;
+    transform: scale(0.8);
+    margin: 200px;
+}
+
+.StarOff{
+    fill: #E5E5E5;
+}

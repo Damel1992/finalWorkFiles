@@ -1,0 +1,17 @@
+.Contacts{
+    margin-bottom: 100px;
+}
+.NavbarItem{
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    font-weight: 600;
+}
+.NavLink{
+    text-decoration: none;
+    color: #828282;
+    &:hover{
+        color: #070707;
+    }
+}
+

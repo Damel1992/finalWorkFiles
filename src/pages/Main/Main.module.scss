@@ -1,0 +1,101 @@
+.MainFone{
+    position: absolute;
+    top: 0px;
+    left: -3px;
+    width: 110%;
+    height: 110%;
+}
+.Main{
+    position: relative;
+    padding-top: 30vh;
+    text-align: center;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+.MainLi{
+    position: relative;
+}
+.MainHeading{
+    padding: 50px;
+    right: 25%;
+    position: absolute;
+    font-weight: 700;
+    color: rgb(219, 219, 219);
+    font-size: 60px;
+    animation-duration: 3.5s;
+    animation-name: scale;
+    animation-iteration-count: infinite;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.MainHeading {
+  width: 50%;
+  left: 25%;
+  position: relative;
+  display: block;
+  margin: 0 2px;
+  padding: 0.625rem 1.25rem;
+  text-transform: uppercase;
+  overflow: hidden;
+}
+
+.MainHeading:before {
+  box-sizing: border-box;
+  transform: translateX(100%);
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 99.5%;
+  height: 2px;
+  border-bottom: 2px solid transparent;
+  border-left: 2px solid transparent;
+}
+
+.MainHeading:after {
+  box-sizing: border-box;
+  transform: translateX(-100%);
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 99.5%;
+  height: 2px;
+  border-top: 2px solid transparent;
+  border-right: 2px solid transparent;
+}
+
+.MainHeading:hover {
+  backdrop-filter: blur(8px);
+  transition: 1s;
+  color: white;
+  text-decoration: none;
+}
+
+.MainHeading:hover:before {
+  transition: 0.1s transform linear, 0.1s height linear 0.1s;
+  transform: translateX(0);
+  height: 100%;
+  border-color: #ffffff;
+}
+
+.MainHeading:hover:after {
+  transition: 0.1s transform linear 0.2s, 0.1s height linear 0.3s;
+  transform: translateX(0);
+  height: 100%;
+  border-color: #ffffff;
+}
+
+@keyframes scale {
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(0.96);
+    }
+    100% {
+        transform: scale(1);
+    }
+  }
+

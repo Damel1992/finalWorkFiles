@@ -1,0 +1,34 @@
+.AboutLine{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.MyName{
+    font-size: 47px;
+    font-weight: 600;
+    color: #070707;
+    margin: 40px 0px;
+}
+
+.MyInfo{
+    font-size: 18px;
+    color: #070707;
+    margin: 100px 0px 45px 0px;
+}
+
+.LangMode p{
+    transform: rotate(270deg);
+    align-items: right;
+    margin: 100px 0px 0px 0px;
+    position: relative;
+    left: 20px;
+}
+
+.RuMode, .EngMode{
+    font-weight: 600;
+    color: #828282;
+    &:hover{
+        color: #070707;
+    }
+}

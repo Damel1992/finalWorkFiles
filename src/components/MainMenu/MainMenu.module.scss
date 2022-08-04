@@ -1,0 +1,40 @@
+.MenuFone{
+    padding: 20px;
+
+}
+.Menu{
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 20px;
+    background-color: white;
+}
+.MainNav {
+    flex-wrap: wrap;
+    margin: 50px;
+    display: flex;
+    justify-content: space-around;
+    color: gray;
+    z-index: 1;
+
+}
+.NavBtn{
+    text-decoration: none;
+    color: grey;
+    font-weight: 700;
+    font-size: 18px;
+}
+.NavLink{
+    text-decoration: none;
+    color: grey;
+    font-weight: 700;
+    font-size: 20px;
+    border: 1px solid grey;
+    padding: 8px 14px;
+    border-radius: 24px;
+    color: black;
+}
+.NavLink:hover{
+    background-image: url(../../../public/images/MainFone.jpg);
+    color: rgb(255, 255, 255);
+    border: 1px solid rgb(0, 0, 0);
+}
+

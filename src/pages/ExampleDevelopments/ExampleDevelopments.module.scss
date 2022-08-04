@@ -1,0 +1,32 @@
+.ExampleDevelopments{
+    padding: 0px 60px;
+    text-align: center;
+    background-image: url(../../../public/images/MainFone.jpg);
+}
+.siteBorder{
+padding: 20px;
+}
+.site{
+background-color: white;
+border-radius: 24px;
+padding-bottom: 1px;
+}
+.DevelopNav{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    border: 1px solid black;
+    border-radius: 24px;
+}
+.DevelopVisual{
+    margin: 20px;
+    border: 1px solid black;
+    border-radius: 24px;
+}
+.DevelopNav button{
+    border-radius: 25px;
+    margin: 10px 15px;
+}
+.DevHeading{
+    color: red;
+}

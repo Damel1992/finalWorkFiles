@@ -1,0 +1,27 @@
+.modal_wrapper{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,.2);
+    width: 100%;
+    z-index: 5;
+    backdrop-filter: blur(10px);
+}
+.modal_wrapper.open{
+    height: 100vh;
+    display: block;
+}
+.modal_wrapper.close{
+    height: 0;
+    display: none;
+}
+.modal_body{
+    background-color: white;
+    position: relative;
+    margin: 5vh auto;
+    padding: 20px;
+    border-radius: 10px;
+    max-height: 90vh;
+    width: 60vw;
+    overflow-y: scroll;
+}

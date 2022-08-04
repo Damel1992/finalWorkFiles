@@ -1,0 +1,31 @@
+.DevelopNav{
+    padding-bottom: 40px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px;
+    border: 1px solid black;
+    border-radius: 24px;
+}
+
+.DevelopNav button{
+    width: 150px;
+    border-radius: 25px;
+    margin: 10px 15px;
+    padding: 5px 10px;
+}
+.NavLink{
+    text-decoration: none;
+    color: grey;
+    font-weight: 700;
+    font-size: 20px;
+    border: 1px solid grey;
+    padding: 8px 14px;
+    border-radius: 24px;
+    color: black;
+}
+.NavLink:hover{
+    background-image: url(../../../public/images/MainFone.jpg);
+    color: rgb(255, 255, 255);
+    border: 1px solid rgb(0, 0, 0);
+}
